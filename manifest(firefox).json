@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Yathome",
+  "version": "2.4",
+  "description": "A Simple New Tab (browser's home page) inspired by Google's 'Default Page' design.",
+  "permissions": [],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "icons": {
+    "48": "icon.png"
+  },
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  }
+}
