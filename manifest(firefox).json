@@ -1,7 +1,7 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 1,
   "name": "Yathome",
-  "version": "2.4",
+  "version": "1",
   "description": "A Simple New Tab (browser's home page) inspired by Google's 'Default Page' design.",
   "permissions": [],
   "background": {
